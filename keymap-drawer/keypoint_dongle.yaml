@@ -49,10 +49,10 @@ layers:
   - LALT
   - MUTE
   - RAISE
-  - SPACE
+  - ENTER
   - LOWER
-  - LOWER
-  - SPACE
+  - BACKSPACE
+  - {t: SPACE, h: LOWER}
   - RAISE
   - MUTE
   - '-'
@@ -110,7 +110,7 @@ layers:
   - SPACE
   - {t: LOWER, type: held}
   - LOWER
-  - {t: SPACE, h: LOWER}
+  - SPACE
   - {t: MOUSE, h: toggle}
   - OUT TOG
   - '&bootloader'
