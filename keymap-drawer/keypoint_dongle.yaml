@@ -13,7 +13,7 @@ layers:
   - I
   - O
   - P
-  - BSPC
+  - '-'
   - CAPS
   - A
   - S
@@ -44,8 +44,8 @@ layers:
   - .
   - /
   - RSHFT
-  - LCTRL
-  - LGUI
+  - LEFT GUI
+  - LEFT CONTROL
   - LALT
   - MUTE
   - RAISE
@@ -57,7 +57,7 @@ layers:
   - MUTE
   - '-'
   - '='
-  - '`'
+  - {t: LOWER, h: toggle}
   LOWER:
   - '&bootloader'
   - ESC
