@@ -27,7 +27,7 @@ layers:
   - K
   - L
   - ;
-  - ENTER
+  - DELETE
   - LSHFT
   - Z
   - X
@@ -55,7 +55,7 @@ layers:
   - {t: SPACE, h: LOWER}
   - RAISE
   - MUTE
-  - '-'
+  - RIGHT ALT
   - '='
   - {t: LOWER, h: toggle}
   LOWER:
@@ -108,7 +108,7 @@ layers:
   - BT CLR
   - {t: ▽, type: trans}
   - SPACE
-  - LOWER
+  - {t: ▽, type: trans}
   - LOWER
   - {t: SPACE, type: held}
   - {t: MOUSE, h: toggle}
