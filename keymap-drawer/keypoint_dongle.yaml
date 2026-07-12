@@ -71,7 +71,7 @@ layers:
   - '8'
   - '9'
   - '0'
-  - DEL
+  - {t: ▽, type: trans}
   - CAPS
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -85,7 +85,7 @@ layers:
   - UP ARROW
   - RIGHT
   - ''''
-  - ENTER
+  - {t: ▽, type: trans}
   - LSHFT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -100,7 +100,7 @@ layers:
   - {t: ▽, type: trans}
   - '['
   - ']'
-  - NUBS
+  - \
   - RSHFT
   - {t: ▽, type: trans}
   - LGUI
@@ -142,7 +142,7 @@ layers:
   - F12
   - ''
   - ''
-  - ''
+  - '"'
   - ''
   - LSHFT
   - ''
