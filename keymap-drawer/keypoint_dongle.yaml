@@ -60,7 +60,7 @@ layers:
   - {t: LOWER, h: toggle}
   LOWER:
   - '&bootloader'
-  - ESC
+  - '#'
   - '1'
   - '2'
   - '3'
