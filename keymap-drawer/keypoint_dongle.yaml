@@ -60,7 +60,7 @@ layers:
   - {t: LOWER, h: toggle}
   LOWER:
   - '&bootloader'
-  - '`'
+  - '~'
   - '1'
   - '2'
   - '3'
@@ -118,7 +118,7 @@ layers:
   - {t: ▽, type: trans}
   RAISE:
   - '&bootloader'
-  - ESC
+  - '`'
   - F1
   - F2
   - F3
