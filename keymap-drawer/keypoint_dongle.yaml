@@ -18,7 +18,7 @@ layers:
   - A
   - S
   - D
-  - F
+  - {t: F, h: '&mkp LCLK'}
   - G
   - '&mkp LCLK'
   - '&mkp LCLK'
@@ -50,8 +50,8 @@ layers:
   - MUTE
   - RAISE
   - ENTER
-  - LOWER
-  - BACKSPACE
+  - LEFT CONTROL
+  - {t: BACKSPACE, h: RIGHT SHIFT}
   - {t: SPACE, h: LOWER}
   - RAISE
   - MUTE
@@ -102,25 +102,25 @@ layers:
   - ']'
   - NUBS
   - RSHFT
-  - LCTRL
+  - {t: ▽, type: trans}
   - LGUI
-  - '&bootloader'
+  - {t: ▽, type: trans}
   - BT CLR
   - {t: ▽, type: trans}
   - SPACE
-  - {t: LOWER, type: held}
   - LOWER
-  - SPACE
+  - LOWER
+  - {t: SPACE, type: held}
   - {t: MOUSE, h: toggle}
   - OUT TOG
-  - '&bootloader'
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   RAISE:
   - '&bootloader'
   - ESC
   - F1
-  - UP
+  - F2
   - F3
   - F4
   - F5
@@ -131,9 +131,9 @@ layers:
   - F10
   - ''
   - CAPS
-  - LEFT
-  - DOWN
-  - RIGHT
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - ''
   - ''
   - ''
@@ -156,9 +156,9 @@ layers:
   - ''
   - ''
   - ''
-  - ''
-  - ''
-  - ''
+  - '{'
+  - '}'
+  - '|'
   - ''
   - LCTRL
   - LGUI
